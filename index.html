@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Pemograman Web1</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img class="logo" src="logo.jpg" />
+        <div class="Menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <h1>Legacy Coffee Menu</h1>
+    </header>
+    <div class="description">
+      <p>
+        LOREM.COM is a premium domain name exclusively represented by
+        MarkUpgrade. Founded in 2018 and led by Tatiana Bonneau, MarkUpgrade
+        provides naming, domain acquisitions, and domain name services. By
+        working with us you can focus on growing your business while we handle
+        the task of submitting a proposal and streamlining the acquisition
+        process. The fee we charge is a reflection of the time, expertise, and
+        research efforts we invest in bringing buyers and sellers together. We
+        pride ourselves on maintaining a strong network of connections, and
+        offering a comprehensive range of services. These services include
+        access to proprietary educational resources, market research,
+        streamlined communication processes, and guaranteed response to
+        proposals on premium domains that are exclusively represented by
+        MarkUpgrade.
+      </p>
+    </div>
+    <script type="text/javascript">
+      $(window).on("scroll"),
+        function () {
+          if ($(window).scrollTop()) {
+            $("nav").addClass("black");
+          } else {
+            $("nav").removeClass("black");
+          }
+        };
+    </script>
+  </body>
+</html>
